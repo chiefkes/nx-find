@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "nx-find": "./src/nx-find.ts"
+    "nx-find": "./bin/nx-find.js"
   },
   "dependencies": {
-    "@inquirer/prompts": "^7.0.0"
+    "@inquirer/prompts": "^7.0.0",
+    "tsx": "^4.21.0"
   },
   "devDependencies": {
+    "@types/node": "^25.2.3",
     "typescript": "^5.0.0"
   }
 }
